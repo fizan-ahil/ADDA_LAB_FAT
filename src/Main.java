@@ -12,6 +12,9 @@ public class Main {
         }
         return true;
     }
+    public static void message() {
+        System.out.println("HELLO WORLD!");
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -23,5 +26,6 @@ public class Main {
         else {
             System.out.println(num+ " is not a prime number");
         }
+        message();
     }
 }
